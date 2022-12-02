@@ -1,3 +1,7 @@
+<div>
+  <img src="image\berd 2 backgroundless.png" alt="">
+</div>
+
 <div id="divWeatherMain">
     <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
         <i class="fas fa-3x fa-sun sun"></i>
@@ -15,5 +19,5 @@
     <div class="weatherWidgetRow" style="font-size: 12px;">Humidity: {{WeatherData.main.humidity}}%</div>
     <button (click)="feren()" mat-raised-button>F</button>
     <button (click)="celc()" mat-raised-button>C</button>
-
+    <button (click)="kelv()" mat-raised-button>K</button>
 </div>

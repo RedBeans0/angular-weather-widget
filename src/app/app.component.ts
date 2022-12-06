@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-weather-widget';
-
+myimage:string = './assets/images/cloud1.png';
 
 }
